@@ -698,7 +698,26 @@ footer{
     top: 40% !important;
 }
 .copyright_text a{ color: #ffffff;}
-.copyright_text a:hover{ color: #000000;}
-
-
-
+.copyright_text a:hover{ color: #000000;
+}
+.about_nosotros {
+     width: 100%;
+     float: left;
+     background-image: url(../images/fondoblanco.jpeg);
+     height: auto;
+     padding: 100px 0px;
+     background-size: 100%;
+     background-repeat: no-repeat;
+}
+.nosotrosletter{
+     width: 100%;
+     float: left;
+     font-size: 20pt;
+     color: #2f00af;
+}
+.nosotroslettertitle{
+     width: 100%;
+     float: left;
+     font-size: 44pt;
+     color: #0081cc;
+}
