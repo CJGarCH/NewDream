@@ -703,9 +703,20 @@ footer{
 
 
 
-/* html.Oscuro{
+html.Oscuro{
      filter: invert(100%);
 }
 html.Oscuro img{
      filter: invert(100%);
-} */
+}
+
+.confi{
+     width: 100%;
+     float: left;
+     background-color: #ffffff;
+     height: auto;
+     padding: 60px 20px;
+     top: 125px;
+     position: relative;
+     box-shadow: 0px 0px 8px 0px;
+}

@@ -28,3 +28,8 @@ $('select[id="dDown"]').change(function() {
    }        
 });​ */
 
+$(document).ready(function(){
+  $("#con").click(function(){
+    $("div").filter("#config").toggle(1000);
+  });
+});
