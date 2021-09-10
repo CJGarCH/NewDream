@@ -18,7 +18,9 @@ $('select[id="dDown"]').change(function() {
   $("#man").attr("src","images/hombre.png")
  }
  
- 
+
+
+
  
 
 });
@@ -34,3 +36,38 @@ $(document).ready(function(){
     $("div").filter("#config").toggle(1000);
   });
 });
+
+
+// $("#nuevo_nom").hide();
+
+// function cambiarn() {
+//   let text = "";
+
+//   if ($("#cnam").text() === "Cambiar nombre") {
+//     $("#nuevo_nom").show();
+//     text = "Cancelar";
+//   } else {
+//     $("#nuevo_nom").hide();
+//     text = "Cambiar nombre";
+//   }
+
+//   $("#cnam").html(text);
+
+// }
+
+function cambio(){
+  
+  $(document).ready(function () {
+    setTimeout(()=>{
+      $("#perfil").text('Don antonio');
+  
+    }, 1000);
+  });
+
+}
+
+
+
+
+
+
