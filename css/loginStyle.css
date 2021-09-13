@@ -1,0 +1,80 @@
+body{ height:100vh; margin:0; }
+header{ min-height:65px; background:black;
+    ;
+    text-align:center }
+footer{ min-height:65px; background:black;}
+
+
+#gran{
+  position: absolute;
+  width: 458px;
+  height: 612px;
+  left: 481px;
+  top: 23px;
+
+  background-color: white;;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  opacity: 0.8;
+}
+#gran2{
+  position: absolute;
+  width: 458px;
+  height: 432px;
+  left: 501px;
+top: 83px;
+
+  background-color: white;;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  opacity: 0.8;
+}
+
+
+#don{
+  position: absolute;
+  width: 854px;
+  height: 582px;
+  left: 34px;
+  top: 22px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  }
+
+.lg{
+  position: absolute;
+width: 412px;
+height: 74px;
+left: 23px;
+top: 23px;
+
+font-family: Sacramento;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 93px;
+text-align: center;
+
+color: #000000;
+}
+#gl{
+  position: absolute;
+  width: 293px;
+  height: 214px;
+  left: 82px;
+  top: 114px;
+}
+
+body{   
+    display:flex; 
+    flex-direction:column; 
+  }
+
+  
+  footer{
+    margin-top:auto; 
+    background-color: black;
+    color: #038C33; 
+    text-align:center;
+
+  }

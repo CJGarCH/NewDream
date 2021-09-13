@@ -853,5 +853,11 @@ html.Oscuro img{
      .seccion-perfil-usuario .perfil-usuario-body {
          width: 100%;
      }
+     
 
- 
+#logoUsuario{
+     width: 118px;
+     height: 110px;
+     left: 1000px;
+     top: 8px;
+}
